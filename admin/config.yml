@@ -1,0 +1,83 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/voitures"
+public_folder: "/images/voitures"
+
+locale: "fr"
+
+collections:
+  - name: "voitures_a_vendre"
+    label: "Voitures à vendre (jusqu'à 10)"
+    label_singular: "Voiture"
+    files:
+      - name: "voiture1"
+        label: "Voiture 1"
+        file: "content/voiture1.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture2"
+        label: "Voiture 2"
+        file: "content/voiture2.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture3"
+        label: "Voiture 3"
+        file: "content/voiture3.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture4"
+        label: "Voiture 4"
+        file: "content/voiture4.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture5"
+        label: "Voiture 5"
+        file: "content/voiture5.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture6"
+        label: "Voiture 6"
+        file: "content/voiture6.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture7"
+        label: "Voiture 7"
+        file: "content/voiture7.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture8"
+        label: "Voiture 8"
+        file: "content/voiture8.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture9"
+        label: "Voiture 9"
+        file: "content/voiture9.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
+
+      - name: "voiture10"
+        label: "Voiture 10"
+        file: "content/voiture10.json"
+        fields:
+          - { label: "Photo de la voiture", name: "photo", widget: "image", required: false, hint: "Une seule photo par voiture." }
+          - { label: "Caractéristiques", name: "caracteristiques", widget: "text", required: false, hint: "Marque, modèle, année, prix, kilométrage, état... tout en un seul texte libre." }
